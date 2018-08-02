@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="~/css/style.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+    </head>
+    <body>
+    @{
+        var StringList = new List<string>
+            {
+                "Washington",
+                "Idaho",
+                "Oregon",
+                "California",
+                "Nevada",
+                "Utah",
+                "Ohio",
+                "Indiana",
+                "Kentucky"
+            };
+        
+        foreach(var item in StringList)
+        {
+            <p>@item</p>
+        }
+    }
+    </body>
+</html>
