@@ -20,11 +20,20 @@
                 "Indiana",
                 "Kentucky"
             };
-        var char theBigC;
+        string ourString = "C";
         
-        foreach(var item in StringList)
+        foreach(string item in StringList)
         {
-            <p>@item</p>;
+            <div>
+                @if(item.StartsWith("C"))
+                    {
+                        <p style="color:red;">@item</p>
+                    }
+                @if(!item.StartsWith("C"))
+                    {
+                        <p>@item</p>
+                    }
+            </div>
         }
     }
     </body>
