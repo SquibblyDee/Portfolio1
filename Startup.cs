@@ -23,6 +23,7 @@ namespace Portfolio1
         {
             if (env.IsDevelopment())
             {
+                app.UseStaticFiles();
                 app.UseMvc();
             }
 
