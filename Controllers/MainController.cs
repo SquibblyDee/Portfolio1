@@ -15,16 +15,16 @@ namespace Portfolio1.Controllers     //be sure to use your own project's namespa
         //for each route this controller is to handle:
         [HttpGet]       //type of request
         [Route("/projects")]     //associated route string (exclude the leading /)
-        public string Projects()
+        public IActionResult Projects()
         {
-            return "These are my projects";
+            return View();
         }
         //for each route this controller is to handle:
         [HttpGet]       //type of request
         [Route("/contact")]     //associated route string (exclude the leading /)
-        public string Contact()
+        public IActionResult Contact()
         {
-            return "This is my Contact info!";
+            return View();
         }
     }
 }

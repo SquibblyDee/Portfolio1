@@ -1,3 +1,79 @@
 h1{
     color: orange;
+    text-align: center;
+    margin: 5% 0% !important;
 }
+
+h2{
+    display: inline-block;
+    text-align: center;
+    
+    /* border-right: 2px solid black; */
+}
+
+h2 a{
+    text-decoration: underline;
+}
+
+.navbar{
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+
+.form1{
+    display: inline-block;
+    width: 60%;
+    margin-left:20%
+}
+
+.image h4{
+    text-align: center;
+    margin: 5%;
+}
+
+.image{
+    display: inline-block;
+    margin: 0% 10%;
+}
+
+.lorumipsum{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 20%;
+}
+
+#scrollable{
+    width: 80%;
+    margin: 5% 5%;
+}
+
+#scrollable img{
+    width: 250px;
+    display: inline-block;
+    margin: 3% 3%;
+}
+
+.imagescroll h5{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 3% 3%;
+}
+
+.imagescroll p{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 3% 3%;
+}
+
+button{
+    float: right;
+}
+
+.imagescroll{
+    width: 70%;
+}
+
